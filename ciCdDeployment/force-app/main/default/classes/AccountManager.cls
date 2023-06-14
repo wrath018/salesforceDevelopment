@@ -6,7 +6,7 @@ global with sharing class AccountManager {
         Restresponse res =Restcontext.response;
         String parsebody=req.requestbody.tostring();
         JSONParser parser=JSON.createParser(parsebody);
-        system.debug(parsebody);
+        system.debug(parsebody+'test');
         Integer idValue;
 String email;
 String lastName;
